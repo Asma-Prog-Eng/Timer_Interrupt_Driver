@@ -35,10 +35,10 @@ void Timer2_Interrupt_init(int Prescaler, char SecOrFreq) {
 
 	RCC->APB1ENR |= TIM2EN  ;
 
-    // set Timer prescaler to 2 ; CK_CNT (counter clock frequency ) = Timer peripheral clock /(PSC+1)
+    // set Timer prescaler to 2 
 
 
-	 TIM2->PSC =  Timer_Prescaler -1 ; // 16 000 000 / 1600 --> 10 000
+	 TIM2->PSC =  Timer_Prescaler -1 ; 
 
 	// Enable Upcounting mode :  CR1_DIR
 
