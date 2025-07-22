@@ -1,9 +1,4 @@
-/*
- * clock selection : internal clock 16Mhz
- * run the timer at 1Hz :
- *  set CK_CNT = 100000
- *  set Timer Preload value to 100000
- */
+
 #include "stm32f4xx.h"
 #include "Timer.h"
 
