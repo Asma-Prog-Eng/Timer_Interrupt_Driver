@@ -1,0 +1,3 @@
+C:/Users/asmae/OneDrive/Bureau/STM32_Projects/Discovery_Board/Timer_Interrupt_Driver/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	2
+../Src/Timer.c:29:6:Timer2_Interrupt_init	3
+../Src/Timer.c:90:6:GPIOD_init	1
